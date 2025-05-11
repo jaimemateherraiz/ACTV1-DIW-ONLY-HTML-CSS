@@ -42,6 +42,7 @@ h1 {
 }
 .nav-list a {
   text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
   color: #333;
   font-size: 20px;
   font-weight: 500;
@@ -52,5 +53,226 @@ h1 {
 .nav-list a:hover {
   color: #1985ea;
   cursor: pointer;
-  
+}
+.content-about {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.content-about h2 {
+  font-family: "Barriecito", system-ui;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+.content-about p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.content-portfolio {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+}
+.content-portfolio h2 {
+  font-family: "Barriecito", system-ui;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.card {
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: #6A2C70;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 5px solid #585858;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  background-color: #F08A5D;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 5px solid #585858;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+.card-front img,
+.card-back img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-contact {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+}
+.content-contact h2 {
+  font-family: "Barriecito", system-ui;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+.content-contact p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.input {
+  font-family: "SF Pro";
+  max-width: 190px;
+  padding: 0.875rem;
+  font-size: 1rem;
+  border: 1.5px solid #000;
+  border-radius: 0.5rem;
+  box-shadow: 2.5px 3px 0 #000;
+  outline: none;
+  transition: ease 0.25s;
+}
+
+.input:focus {
+  box-shadow: 5.5px 7px 0 black;
+}
+
+.btn-enviar {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.btn-enviar {
+  --primary-color: #111;
+  --hovered-color: #c84747;
+  position: relative;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btn-enviar p {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.btn-enviar::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+.btn-enviar p::before {
+  position: absolute;
+  /*   box-sizing: border-box; */
+  content: "Subscribe"; /* Consider changing this content if needed */
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.btn-enviar:hover::after {
+  width: 100%;
+}
+
+.btn-enviar:hover p::before {
+  width: 100%;
+}
+
+.btn-enviar:hover svg {
+  transform: translateX(4px);
+  color: var(--hovered-color);
+}
+
+.btn-enviar svg {
+  color: var(--primary-color);
+  transition: 0.2s;
+  position: relative;
+  width: 15px;
+  transition-delay: 0.2s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
 }
