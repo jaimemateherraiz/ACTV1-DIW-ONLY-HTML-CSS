@@ -44,7 +44,7 @@ Como es un proyecto puramente front-end (HTML/CSS), no requiere instalación esp
 
 ## Autor
 
-* **Jaime Mateos Herráiz** - Creador del proyecto.
+* **Jaime Maté Herráiz** - Creador del proyecto.
 * GitHub: [jaimemateherraiz](https://github.com/jaimemateherraiz)
 
 ## Notas Adicionales
