@@ -8,7 +8,9 @@
   font-weight: 400;
   font-style: normal;
 } */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   width: 100%;
   height: 100%;
@@ -29,7 +31,8 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 .nav-list {
   display: flex;
@@ -47,11 +50,10 @@ h1 {
   font-size: 20px;
   font-weight: 500;
   padding: 10px 20px;
-  border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .nav-list a:hover {
-  color: #1985ea;
+  color: #c84747;
   cursor: pointer;
 }
 .content-about {
@@ -124,7 +126,7 @@ h1 {
 }
 
 .card-front {
-  background-color: #6A2C70;
+  background-color: #6a2c70;
   color: #fff;
   display: flex;
   align-items: center;
@@ -136,7 +138,7 @@ h1 {
 }
 
 .card-back {
-  background-color: #F08A5D;
+  background-color: #fa6b29;
   color: #fff;
   display: flex;
   align-items: center;
@@ -237,7 +239,7 @@ h1 {
 .btn-enviar p::before {
   position: absolute;
   /*   box-sizing: border-box; */
-  content: "Subscribe"; /* Consider changing this content if needed */
+  content: "Enviar";
   width: 0%;
   inset: 0;
   color: var(--hovered-color);
