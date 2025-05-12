@@ -1,6 +1,7 @@
 # TUTTO BENE - Portfolio Artístico Ficticio
 
-![TUTTO BENE Logo/Banner (Opcional)] Este proyecto es un portfolio web ficticio para un artista llamado "TUTTO BENE", desarrollado como parte de una actividad de clase. El sitio está construido únicamente con **HTML5** y **CSS3**, mostrando las habilidades básicas de maquetación y estilizado web.
+Este proyecto es un portfolio web ficticio para un artista llamado "TUTTO BENE", desarrollado como parte de una actividad de clase. El sitio está construido únicamente con **HTML5** y **CSS3**, mostrando las habilidades básicas de maquetación y estilizado web.
+![image](https://github.com/user-attachments/assets/1141c861-460d-4b03-8c77-860b500d48ca)
 
 ## Descripción del Proyecto
 
@@ -11,10 +12,6 @@ El sitio web presenta varias secciones:
 3.  **Contact (Contacto):** Una sección simple con un campo para introducir el email y un botón de envío (actualmente sin funcionalidad backend).
 
 El diseño utiliza Google Fonts (`Barriecito` y `Titillium Web`) para una apariencia distintiva y se estructura mediante secciones semánticas de HTML5.
-
-## Captura de Pantalla
-
-![image](https://github.com/user-attachments/assets/1141c861-460d-4b03-8c77-860b500d48ca)
 
 
 ## Tecnologías Utilizadas
