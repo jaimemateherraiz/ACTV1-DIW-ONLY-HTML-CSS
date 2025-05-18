@@ -36,11 +36,6 @@ Como es un proyecto puramente front-end (HTML/CSS), no requiere instalación esp
 3.  **Abre el archivo `index.html`:**
     Haz doble clic en el archivo `index.html` o ábrelo desde tu navegador (Archivo -> Abrir archivo...).
 
-## Estructura del Proyecto
-|-- index.html       # Archivo principal HTML
-|-- style.css        # Hoja de estilos CSS
-|-- README.md        # Este archivo
-|-- (Otras carpetas como /images si tienes imágenes locales)
 
 ## Autor
 
